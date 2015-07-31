@@ -95,7 +95,7 @@ sendReqToClouds(bulbasaur,accessToken,'Bulbasaur',0,true);
 // Max's code :3
 function sendReqToClouds(locdeviceid,locaccesstoken,devicename,noxval, needsAmmendingForBarGraphs){
 
-var noxvalfin = Math.round(Math.ceil(noxval));
+var noxvalfin = parseInt(Math.round(Math.ceil(noxval)));
 //var noxvalfin = (noxvalfin/100)*150;
 
 // if (needsAmmendingForBarGraphs) {
